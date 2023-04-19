@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js challanges</title>
+</head>
+<body>
+
+    <input type="number" id="user">    
+    <button onclick="inputvalue()" id="accept">SUBMIT</button>
+    <br>
+    <br>
+    <script>
+        // print all even numbers from 0-10
+    
+        let b =10;
+        for (let i=1;i<=b;i++){
+            if(i%2==0){
+                document.write(i +"<br>")
+            }
+        }
+      document.write("<br>")
+        // print all even numbers from 0-10 second method
+        let num=1;
+        while(num<11){
+            num=num+1;
+            if(num%2==0)
+            document.write(num+"<br>")
+                        
+        }
+        document.write("<br>")
+        // print all even numbers from 0-10 third method using function
+        function even(){
+            for(let i =1;i<=10;i++)
+                if(i%2==0) {
+                document.write(i+"<br>")
+            }
+        }
+        even()
+        document.write("<br>")
+      // taking input from user and printing the even number
+        function inputvalue(){
+          var user=   document.getElementById("user").value;         
+                 
+          if(user>10){
+            document.write("please enter the number below 11"+"<br>")
+          }
+            
+            for(i=1;i<=user;i++){
+                if(i%2==0){
+                    document.write(i+"<br>")
+                }
+            }
+        }
+
+        
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js challanges</title>
+</head>
+<body>
+
+    <input type="number" id="user">    
+    <button onclick="inputvalue()" id="accept">SUBMIT</button>
+    <br>
+    <br>
+    <script>
+        // print all even numbers from 0-10
+        
+        let a = 10;
+        for (i=1;i<=a;i++){
+            if(i%2==0){
+                document.write(i +"<br>")
+            }
+        }
+      document.write("<br>")
+        // print all even numbers from 0-10 second method
+
+        while(num<11){
+            num=num+1;
+            if(num%2==0)
+            document.write(num+"<br>")
+                        
+        }
+        document.write("<br>")
+        // print all even numbers from 0-10 third method using function
+        function even(){
+            for(let i =1;i<=10;i++)
+                if(i%2==0) {
+                document.write(i+"<br>")
+            }
+        }
+        even()
+        document.write("<br>")
+      // taking input from user and printing the even number
+        function inputvalue(){
+          var user=   document.getElementById("user").value;         
+                 
+          if(user>10){
+            document.write("please enter the number below 11"+"<br>")
+          }
+            
+            for(i=1;i<=user;i++){
+                if(i%2==0){
+                    document.write(i+"<br>")
+                }
+            }
+        }
+
+        
+    </script>
+</body>
+</html>

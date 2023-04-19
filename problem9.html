@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- write the sum of all elements in array-->
+    <script>
+        let array1 = [1,2,3,4,5];
+        let array2= [1,4.5,5.5,10]
+        let array3=array1.concat(array2);
+        console.log(array3)
+       function sumOfAll(arr){
+        let sum=0;
+        for(let a of arr)
+        sum+=a;
+        return sum;
+       };
+       console.log(sumOfAll( [1, 2, 3, 4, 5, 1, 4.5, 5.5, 10,2.5]))
+    </script>
+
+</body>
+</html>

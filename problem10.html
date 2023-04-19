@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regex</title>
+</head>
+<body>
+    <!--write a vowels number in an integer-->
+    <script>
+        let z = "i am a very very lazy very boy"
+        let x = /very/g
+        let w = z.replace(x,"GOOD");
+        document.write(w);
+
+        let a ="rushikesh good good boy "
+        document.write(a.replace(/good/g,"bad"))
+        
+
+        let c = "thid is the good food and wood";
+        let d = c.replace(/.ood/g,"got it");
+        document.write(d); 
+
+
+        let harry = "harry is a larry 7arry 8arry 9rry"
+        let output = harry.replace(/d[a-e]rry/g,"done")
+        document.write(output)
+
+    </script>
+</body>
+</html>
